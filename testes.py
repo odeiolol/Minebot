@@ -3,15 +3,11 @@ import time
 import pydirectinput
 time.sleep(1)
 
-
-a=1
-
 for i in range(1907):
     finder=pyautogui.locateOnScreen('Screenshot_1.png', 
     confidence=0.3)
 
-
-
+    
     if finder != None:
         w=finder[2]/2
         h=finder[3]/2
@@ -28,7 +24,6 @@ for i in range(1907):
 
     finder=pyautogui.locateOnScreen('Screenshot_2.png', 
     confidence=0.3)
-
 
 
     if finder != None:
